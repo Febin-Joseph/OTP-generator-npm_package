@@ -1,6 +1,10 @@
 # OTP-generator
 
 
+# Npm installation
+   npm i gen-otp
+
+
 it is a simple OTP generation and it's exiration project and developers can simply integrate it
 to their project for OTP verifications and they can customize the OTP expiration time and values
 of the OTP and also can customize the length of the OTP as their wish :
