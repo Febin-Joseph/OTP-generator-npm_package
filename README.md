@@ -1,35 +1,38 @@
 # OTP-generator
 
 
-# Npm installation
-   npm i gen-otp
+## Installation
+
+#### To install the package, run the following command:
+
+    `npm i gen-otp`
 
 
 it is a simple OTP generation and it's exiration project and developers can simply integrate it
 to their project for OTP verifications and they can customize the OTP expiration time and values
 of the OTP and also can customize the length of the OTP as their wish :
 
-# developers can use it like so  
+## developers can use it like so  
 
 ![otp](https://github.com/Febin-Joseph/OTP-generator-npm_package/assets/128711401/1cf04ef3-e7b2-4e32-a815-b02892bec549)
    
 
 
-# output
+## output
 
 ![otp-3](https://github.com/Febin-Joseph/OTP-generator-npm_package/assets/128711401/699e60a0-8a32-4aec-9134-8a843b208cb5)
 
 
-# if the developer doesn't added any value to true it will make an error
+## if the developer doesn't added any value to true it will make an error
 
 ![otp-4](https://github.com/Febin-Joseph/OTP-generator-npm_package/assets/128711401/333c6c71-b8bb-4bac-90fc-b7f4444775b8)
 
-# and if also the length is less than 1 make an error
+## and if also the length is less than 1 make an error
 
 ![otp-5](https://github.com/Febin-Joseph/OTP-generator-npm_package/assets/128711401/4bd06951-dec2-4aa5-9a13-d73ea4dd87e8)
 
 
-# Bonus idea of the Package
+## Bonus idea of the Package
 
 
 | value         | Type     | Default Value  | Description                                                                   |
