@@ -1,5 +1,5 @@
 {
-  "name": "otp-gen",
+  "name": "gen-otp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

@@ -34,4 +34,4 @@ function generateOTP({
   return otp;
 }
 
-module.exports = generateOTP
+module.exports = generateOTP;
