@@ -14,8 +14,18 @@ of the OTP and also can customize the length of the OTP as their wish :
 
 ## developers can use it like so  
 
-![otp](https://github.com/Febin-Joseph/OTP-generator-npm_package/assets/128711401/1cf04ef3-e7b2-4e32-a815-b02892bec549)
-   
+  `import generateOTP from 'gen-otp';
+
+   //Generates OTP
+        const genOTP = generateOTP({
+            length: 4,
+            digits: true,
+            letters: true,
+            symbols: true,
+            expiration: '3m', //OTP expires in 3 minutes
+        })
+        
+    console.log("OTP :", genOTP)`
 
 
 ## output
