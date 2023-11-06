@@ -5,7 +5,9 @@
 
 #### To install the package, run the following command:
 
-    `npm i gen-otp`
+   ```bash
+ npm i gen-otp
+```
 
 
 it is a simple OTP generation and it's exiration project and developers can simply integrate it
@@ -26,22 +28,37 @@ import generateOTP from 'gen-otp';
             expiration: '3m', //OTP expires in 3 minutes
         })
         
-    console.log("OTP :", genOTP)
+    console.log(genOTP)
 ```
 
 
 ## output
 
-![otp-3](https://github.com/Febin-Joseph/OTP-generator-npm_package/assets/128711401/699e60a0-8a32-4aec-9134-8a843b208cb5)
+```javascript
+{ otp: '482113', expiresAt: 2023-09-08T07:32:22.359Z }
+```
 
 
-## if the developer doesn't added any value to true it will make an error
+## if doesn't added any value to true it will make an error
 
-![otp-4](https://github.com/Febin-Joseph/OTP-generator-npm_package/assets/128711401/333c6c71-b8bb-4bac-90fc-b7f4444775b8)
+```javascript
+ let charset = '';
+  if (digits) charset += '0123456789';
+  if (letters) charset += 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+  if (symbols) charset += '!@#$%^&*()_+-=[]{}|;:,.<>?';
+
+  if (!charset) {
+    throw new Error('At least one character type (digits, letters, symbols) must be selected.');
+  }
+```
 
 ## and if also the length is less than 1 make an error
 
-![otp-5](https://github.com/Febin-Joseph/OTP-generator-npm_package/assets/128711401/4bd06951-dec2-4aa5-9a13-d73ea4dd87e8)
+```javascript
+if (length <= 0) {
+    throw new Error('OTP length must be greater than 0.');
+  }
+```
 
 
 ## Bonus idea of the Package
