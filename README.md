@@ -14,7 +14,7 @@ of the OTP and also can customize the length of the OTP as their wish :
 
 ## developers can use it like so  
 
-  `import generateOTP from 'gen-otp';
+  ```import generateOTP from 'gen-otp';
 
    //Generates OTP
         const genOTP = generateOTP({
@@ -25,7 +25,7 @@ of the OTP and also can customize the length of the OTP as their wish :
             expiration: '3m', //OTP expires in 3 minutes
         })
         
-    console.log("OTP :", genOTP)`
+    console.log("OTP :", genOTP)```
 
 
 ## output
