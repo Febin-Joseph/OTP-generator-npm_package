@@ -1,12 +1,24 @@
 {
   "name": "gen-otp",
-  "version": "1.0.2",
-  "description": "",
-  "main": "otp-generation.js",
+  "version": "1.0.4",
+  "description": "OTP generation package with expiration time in-build",
+  "main": "otp-generator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+		"otp",
+		"otp generation with expiration",
+		"otp generator",
+		"authenticator",
+		"one time password",
+		"generator",
+    "genotp"
+	],
+	"author": "Febin Joseph <febinachu123@gmail.com",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Febin-Joseph/OTP-generator-npm_package"
+	}
 }
